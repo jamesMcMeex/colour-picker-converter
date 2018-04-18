@@ -1,4 +1,5 @@
 node_modules
+app
 npm-debug.log
 .vscode/settings.json
 \.vscode/
