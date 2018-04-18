@@ -1,33 +1,32 @@
 {
-  "name": "colour-picker-converter",
-  "version": "1.0.0",
-  "description": "A simple colour picker and colour code conversion website",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamesMcMeex/colour-picker-converter.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jamesMcMeex/colour-picker-converter/issues"
-  },
-  "homepage": "https://github.com/jamesMcMeex/colour-picker-converter#readme",
-  "dependencies": {
-    "ajv": "^6.4.0",
-    "ajv-keywords": "^3.1.0",
-    "browser-sync": "^2.23.6",
-    "eslint": "^4.19.1",
-    "gulp": "^3.9.1"
-  },
-  "devDependencies": {
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-standard": "^3.0.1"
-  }
+	"name": "colour-picker-converter",
+	"version": "1.0.0",
+	"description": "A simple colour picker and colour code conversion website",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jamesMcMeex/colour-picker-converter.git"
+	},
+	"author": "jamesMcMeex",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jamesMcMeex/colour-picker-converter/issues"
+	},
+	"homepage": "https://github.com/jamesMcMeex/colour-picker-converter#readme",
+	"devDependencies": {
+		"browser-sync": "^2.23.6",
+		"del": "^3.0.0",
+		"eslint": "^4.19.1",
+		"eslint-config-airbnb-base": "^12.1.0",
+		"eslint-plugin-import": "^2.10.0",
+		"gulp": "^3.9.1",
+		"gulp-sass": "^4.0.1",
+		"gulp-sourcemaps": "^2.6.4"
+	},
+	"dependencies": {
+		"bootstrap": "^4.0.0"
+	}
 }
