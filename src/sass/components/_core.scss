@@ -1,0 +1,19 @@
+html,
+body {
+  transition: background-color 0.5s;
+}
+h1,
+h2 {
+  text-align: center;
+}
+input {
+  display: block;
+  margin: 0 auto 30px auto;
+
+  max-width: 360px;
+  border: 1px solid hsl(100, 50%, 0%);
+  line-height: 34px;
+  padding: 6px 10px 10px 10px;
+
+  font-size: 30px;
+}
