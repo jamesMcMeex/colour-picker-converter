@@ -1,0 +1,11 @@
+{
+	"extends": "standard",
+	"rules": {
+		"indent": ["error", "tab"],
+		"no-tabs": "off",
+		"no-var": "off",
+		"semi": "off",
+		"array-element-newline": ["error", "never"],
+		"space-before-function-paren": ["error", "never"]
+	}
+}
